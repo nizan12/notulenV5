@@ -54,7 +54,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange, curre
         <div className="h-full flex flex-col">
           <div className="p-6 border-b border-slate-100 flex items-center justify-between">
             <h1 className="text-xl font-bold text-primary flex items-center gap-2">
-              <FileText className="text-primary" /> NotulenKu
+              <FileText className="text-primary" /> Rapat - Notulen
             </h1>
             <button onClick={() => setIsSidebarOpen(false)} className="md:hidden text-slate-400 hover:text-slate-600">
               <X size={24} />
@@ -129,7 +129,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange, curre
             <button onClick={() => setIsSidebarOpen(true)} className="text-slate-600">
               <Menu size={24} />
             </button>
-            <h1 className="text-lg font-bold text-slate-900">NotulenKu</h1>
+            <h1 className="text-lg font-bold text-slate-900">Rapat - Notulen</h1>
           </div>
           <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 text-xs overflow-hidden">
              {currentUser.photo_user || currentUser.photoBase64 ? (
